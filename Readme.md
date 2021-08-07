@@ -112,7 +112,7 @@ git commit -m "first commit"
 git branch -M main
 
 git remote add origin 
-https://github.com/William-Damazio/Basico-Git-e-GitHub.git
+https://github.com/williamdamazio/howgit.git
 
 git push -u origin main
 
@@ -122,7 +122,7 @@ git push -u origin main
 …or push an existing repository from the command line
 
 git remote add origin 
-https://github.com/William-Damazio/Basico-Git-e-GitHub.git
+https://github.com/williamdamazio/howgit.git
 
 git branch -M main
 
