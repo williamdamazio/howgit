@@ -1,12 +1,12 @@
 # Atividades no GitHub (online)
 
-1 - Vá para o github: https://github.com/William-Damazio/
+1 - Vá para o github: https://github.com/williamdamazio/
 
-- Crie um novo projeto no repositório com o nome `Basico-Git-e-GitHub`
+- Crie um novo projeto no repositório com o nome `howgit`
 
 2 - Crie uma pasta no computador local
 
-- Nomear a pasta para `Basico-Git-e-GitHub`
+- Nomear a pasta para `HowGit`
 
 - Abra a pasta com o programa `Git Bash Here`
 
@@ -18,6 +18,18 @@
 
 *Exibe versão para confirmar se a instalação está correta.* 
 
+- `git config --global user.name "williamdamazio"`
+
+*Definir nome de usuário*
+
+- `git config --global user.name`
+
+*Verificar se o nome de usuário está correto*
+
+- `git remote -v`
+
+*Ver o nome dos repositórios que estam em uso*
+
 - `git config --global user.email "williamsdamazio@gmail.com"`
 
 ou
@@ -25,6 +37,15 @@ ou
 - `git config --global user.name "Your Name"`
 
 *Acessar GitHub pelo email cadastrado. (Encontrado em Settings da conta)*
+
+- `git remote add origin https://github.com/williamdamazio/howgit.git`
+
+*Preparar para adicionar o arquivo com apelido "origin" no projeto criado no GitHub.*
+
+- `git remote rm origin`
+
+*Remove a url remota do repositório se ela já existir (Somente se der erro, para depois, adicionar novamente com o comando anterior).*
+
 
 ## Após abrir a pasta com o Git
 
@@ -48,7 +69,7 @@ ou
 
 *Exportar os arquivos e acrescentar uma mensagem relacionada aos despachos.*
 
-- `git remote add origin "https://github.com/willsbq/ProjetoGit.git"`
+- `git remote add origin https://github.com/williamdamazio/howgit.git`
 
 *Preparar para adicionar o arquivo com apelido "origin" no projeto criado no GitHub.*
 
