@@ -77,9 +77,25 @@ ou
 
 *Enviar origin para main*
 
+*INPORTANTE: Caso o Git retorne erro de permissão, pesquise no Windows por "Gerenciador de Credenciais" e no link do Github mude o nome de usuário(williamdamazio) e a senha. *
+
 - `clear`
 
 *Limpar o Bash.*
+
+## Atualizando um arquivo alterado
+
+- `git add .`
+
+*Subir todas as alterações feitas nos arquivos (**obs**. Caso tenha criado outro arquivo, ele será incluído na branch em uso)*
+
+- `git commit -m "Adicionado Informações sobre o Gerenciador de Credenciais do Windows."`
+
+*adiciona todos os arquivos.*
+
+- `git push origin main`
+
+*push eleva ao nosso respositório do Github (**sem o -u** se já se encontra no arquivo certo) no ramo principal, "main".*
 
 ## RESUMO
 
