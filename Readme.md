@@ -48,7 +48,7 @@ ou
 
 *Exportar os arquivos e acrescentar uma mensagem relacionada aos despachos.*
 
-- `git remote add origin https://github.com/willsbq/ProjetoGit.git`
+- `git remote add origin "https://github.com/willsbq/ProjetoGit.git"`
 
 *Preparar para adicionar o arquivo com apelido "origin" no projeto criado no GitHub.*
 
@@ -60,3 +60,33 @@ ou
 
 *Limpar o Bash.*
 
+## RESUMO
+
+…or create a new repository on the command line
+
+echo "# Basico-Git-e-GitHub" >> README.md
+
+git init
+
+git add README.md
+
+git commit -m "first commit"
+
+git branch -M main
+
+git remote add origin 
+https://github.com/William-Damazio/Basico-Git-e-GitHub.git
+
+git push -u origin main
+
+
+
+
+…or push an existing repository from the command line
+
+git remote add origin 
+https://github.com/William-Damazio/Basico-Git-e-GitHub.git
+
+git branch -M main
+
+git push -u origin main
