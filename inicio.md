@@ -77,7 +77,7 @@ ou
 
 *Enviar origin para main*
 
-*INPORTANTE: Caso o Git retorne erro de permissão, pesquise no Windows por "Gerenciador de Credenciais" e no link do Github mude o nome de usuário(williamdamazio) e a senha. *
+*->**IMPORTANTE:** Caso o Git retorne erro de permissão, pesquise no Windows por **Gerenciador de Credenciais** e no link do Github mude o nome de usuário(williamdamazio) e a senha. *
 
 - `clear`
 
